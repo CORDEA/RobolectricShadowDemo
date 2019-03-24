@@ -6,4 +6,9 @@ object AUtil {
     fun a() {
         throw IllegalArgumentException()
     }
+
+    @JvmStatic
+    fun b() {
+        throw IllegalArgumentException()
+    }
 }
